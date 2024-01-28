@@ -1,0 +1,17 @@
+{
+  "name": "backend-with-node",
+  "version": "1.0.0",
+  "description": "learning backend in node by building and practicing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javacript",
+    "node",
+    "express",
+    "mongoDB"
+  ],
+  "author": "Tushar Verma",
+  "license": "ISC"
+}
