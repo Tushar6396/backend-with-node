@@ -80,4 +80,14 @@ const registerUser = asyncHandler(async (req, res) => {
     .json(new ApiResponse(200, "User created successfully", createdUser));
 });
 
-export { registerUser };
+const loginUser = asyncHandler(async (req, res) => {
+  // Take credentials from the user
+  // validate the credentials - should not be empty
+  // find the enetered credentials in db
+  // if not found ask the user to register first
+  // if found, then check the password entered by the user
+  // if correct password, generate access and refresh token
+  // send cookies
+});
+
+export { registerUser, loginUser };
